@@ -1,0 +1,163 @@
+body{
+    background-color: white;
+    margin: 0;
+}
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: 100%;
+}
+.resume{
+    font-size: 30px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black;
+    text-align: center;
+    margin:20px 50px 0px 25px;
+    background-color: white;
+}
+.clearfix{
+    clear: both;
+}
+.headingdiv{
+    background-color: #d3d3d3;
+}
+.name{
+    color: black;
+    float: right;
+    line-height: 70px;
+    margin: 20px 10px 0px 0px;
+}
+.developer{
+    color: black;
+    float: right;
+    margin-right: 10px;
+}
+.email{
+    color: black;
+    text-align: right;
+    margin: 10px 10px 30px 10px;
+}
+.list1{
+    text-align: center;
+}
+.list1 li{
+    padding: 10px;
+    width: 12.5%;
+    color: black;
+    background-color: grey;
+    border-width: thin;
+    border-style: solid;
+    border-color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    margin: 0px 0px 20px 0px;
+}
+.list1 ul{
+    list-style: none;
+    text-align:center;
+    display:inline;
+    line-height: 10px;
+}
+.list1 ul li:hover{
+    background-color: blue;
+}   
+.projects{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+}
+.project1{
+    margin: 50px 0px 0px 60px ;
+    width: 28.3%;
+    height: 250px;
+    float: left;
+    background-image: url("systemimage.jpeg");
+    background-size: cover;
+}
+.project2{
+    margin: 50px 0px 0px 25px ;
+    width: 28.3%;
+    height: 250px;
+    float: left;
+    background-image: url("systemimage.jpeg");
+    background-size: cover;
+}
+.project3{
+    margin: 50px 0px 0px 25px ;
+    width: 28.3%;
+    height: 250px;
+    float: left;
+    background-image: url("systemimage.jpeg");
+    background-size: cover;
+}
+.project4{
+    margin: 100px 0px 50px 60px ;
+    width: 28.3%;
+    height: 250px;
+    float: left;
+    background-image: url("systemimage.jpeg");
+    background-size: cover;
+}
+.project5{
+    margin: 100px 0px 50px 25px ;
+    width: 28.3%;
+    height: 250px;
+    float: left;
+    background-image: url("systemimage.jpeg");
+    background-size: cover;
+}
+.project6{
+    margin: 100px 0px 50px 25px;
+    width: 28.3%;
+    height: 250px;
+    float: left;
+    background-image: url("systemimage.jpeg");
+    background-size: cover;
+}
+p{
+    margin-top: 200px;
+    padding:15px 20px 50px 0px;
+    text-align: justify;
+    background-color: white;
+    color: black;
+}
+.aboutme{
+    background-color: #d3d3d3;
+    color: black;
+    text-align: center;
+    padding: 30px;
+}
+.personal-1{
+    margin: 0px 0px 25px 50px;
+    background-color: #d3d3d3;
+    width: 45%;
+    height: 225px;
+    float: left;
+    border-width:thick;
+    border-style: solid;
+    border-color: #d3d3d3;
+}
+.personal-1 h2{
+   text-align: center;
+   margin: 40px 0px 0px 0px;
+}
+.education{
+    margin: 0px 0px 25px 25px;
+    width: 45%;
+    background-color: #d3d3d3;
+    height: 225px;
+    float: left;
+    font-size: 16px;
+    text-align:justify;
+    padding: 10px;
+}
+.education h2{
+   text-align: center;
+}
+.endingcopy{
+    text-align: center;
+    padding: 5px;
+    margin: 5px 0px 15px 0px;
+}
